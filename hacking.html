@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://finestbit.com/portfolio" />
+    <title>Gijs Peerlings - Portfolio I-Talent - Seminarie hacking</title>
+    <meta name="description" content="The part of my portfolio where I describe a seminar about hacking" />
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" /> </noscript>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> </head>
+
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="/" title="homepage or index">Home</a></li>
+                <li><a href="mediaserver.html" title="Mediaserver">Mediaserver</a></li>
+                <li><a href="buddy.html" title="studdy buddy">Study Buddy</a></li>
+                <li><a class="active" href="hacking.html" title="seminarie hacking">Seminarie hacking</a></li>
+                <li><a href="dublin.html" title="Studiereis Dublin">Dublin</a></li>
+                <li><a href="eindreflectie.html" title="Eindreflectie">Eindreflectie</a></li>
+            </ul>
+        </nav>
+        <header class="hackingheader">
+            <div class="titlediv">
+                <h1>Seminarie hacking</h1>
+                <p>Een tijd terug heb ik van Gert van Waeyenberg een seminarie gekregen over wifi-hacking.</p>
+                </div><img src="images/hacking.png" alt="An image showing an exercise from the seminar" class="buddy"> </header>
+        <section>
+            <h2>Doelstellingen</h2>
+            <article>
+            <p>Het doel van dit seminarie was om onze technische kennis te vergroten i.v.m. wifi-hacking. Mijn eigen doel staat hier gelijk aan.</p><br>
+            </article>
+                <form action="#">
+                <button class="btn" type="submit"><i class="fas fa-angle-double-up"></i>&nbsp;&nbsp;&nbsp;Naar boven</button>
+            </form>
+        </section>
+        <section>
+            <h2>Verslag</h2>
+            <article>
+            <p>Tijdens dit seminarie hebben we verschillende technieken uitgelegd gekregen om wifi-netwerken te hacken. Voordat de uitleg over het hacken zelf begon werd er door Gert uitgelegd dat we hiervoor een andere wifi-adapter nodig hadden. Deze had hij gelukkig al voorzien. Na het uitdelen hiervan moest voor sommige mensen nog een driver geïnstalleerd worden. Nadat dit was gebeurd werd ons aangegeven Kali Linux op te starten. Er werd voor Kali gekozen omdat dit operating system al alle tools bevat die wij nodig hadden. </p><br>
+            <p>Na het opstarten werd er door Gert uitleg gegeven over de verschillende soorten beveiliging van wifi-netwerken. Zo werd er begonnen met de oude WEP-beveiliging. Deze was in een paar minuten gekraakt. Het kraken hiervan bevatte het netwerk te “flooden” en dan het passwoord achterhalen. Hieronder is een screenshot hiervan:</p><br>
+                <div><img src="images/hacking.png" alt="An image showing the end of a study session" /></div><br>
+                <p>Nadat dit was gelukt werd er doorgegaan naar WPA & WPA2. Er werd ons verteld dat er onder WPA2 verschillende vormen van zijn. PXL gebruikt WPA2-EAP-PSK oftewel WPA2-Enterprise. Hier is een Radius server voor nodig om authenticatie te voorzien. Je kunt een WPA2-Enterprise netwerk identificeren door de gebruikersnaam en wachtwoordprompt. Deze worden daarna geïdentificeerd door de Radius server. Dit netwerk hacken was moeilijker dan de normale WPA2-PSK dus heeft Gert alleen het WPA2-PSK uitgelegd. Verder had de school ook gevraagd ons hier geen technieken voor aan te leren.</p><br>
+                <p>Om te beginnen werd er een GUI-tool getoond zodat Gert kon uitleggen hoe de hack precies werkte. Voordat we begonnen had hij zelf een wifi-netwerk opgezet dat wij konden hacken. De GUI-tool werkte in stapjes. Eerst moest er een de-authentication request worden gestuurd naar de hotspot. Gert legde uit dat alle apparaten die verbonden waren dan van het netwerk werden gegooid. De meeste apparaten proberen dan automatisch opnieuw te verbinden. Hier zit dan ook de zwakte. Als we de handshake konden opvangen wanneer dit apparaat opnieuw verbinding maakt konden we hieruit het paswoord verkrijgen. </p><br>
+                <p>Aangezien de GUI-tool niet echt goed werkte werd er snel overgeschakeld naar de CLI. Dit bleek een meer stabiele optie. Hier werden de commando’s uitgelegd die overeenstemden met de GUI-tool. Omdat iedereen tegelijk probeerde het wifi-apparaat van de hotspot te gooien duurde het even voordat iedereen het wachtwoord had.</p><br>
+                <p>Nadat iedereen eindelijk het wachtwoord had gekraakt werd er ook nog uitgelegd hoe WPA gekraakt kon worden. Net zoals WEP was dit redelijk simpel maar toch net iets moeilijker. Hieraan is goed te zien hoe oudere technologie makkelijker gekraakt kan worden dan nieuwere.</p><br>
+                <p>Als laatste werd ook nog de tool “Fluxion” toegelicht. Dit is een Android applicatie waarmee je op een compatibele mobiele telefoon snel wifi-wachtwoorden kunt hacken. Als disclaimer werd er door Gert aangegeven dat we de aangeleerde technieken nooit mochten toepassen. Dit omdat het natuurlijk illegaal is om in de wifi van andere mensen in te breken. Om zelf veilig te zijn op een wifi-netwerk is het altijd belangrijk om te weten wat er mogelijk is en hoe deze applicaties werken. Aangezien ik alle technieken kon uitproberen en ik alles ook begreep is het doel van deze seminarie behaald.</p><br>
+            </article>
+            <form action="#">
+                <button class="btn" type="submit"><i class="fas fa-angle-double-up"></i>&nbsp;&nbsp;&nbsp;Naar boven</button>
+            </form>
+        </section>
+        <section>
+            <h2>Reflectie</h2>
+            <article>
+                <p>Tijdens dit seminarie heb ik geleerd hoe onveilig de meeste wifi-netwerken zijn. Voordat ik begon heb ik wel nog een probleem gehad met de drivers voor de wifi-adapter van Gert. Gelukkig was dit probleem snel opgelost. Ik was ook niet de enige met dit probleem. Eerst heb ik zelf op Google gezocht naar een oplossing maar deze werd snel gegeven door de lector. </p><br>
+                <p>Het seminarie was heel leerzaam. Ik heb het meeste geleerd van het praktische deel. De theorie werd hier goed mee vermengd. Dit seminarie heeft voornamelijk mijn technische kennis verhoogd. Ook weet ik nu wat ik moet doen om een wifi-netwerk hackerbestendig te maken.</p><br>
+                <p>Een ander probleem was dat Gert soms wat snel door de leerstof ging. Zeker bij het WPA2 gedeelte liepen veel studenten wat achter. Dit werd gelukkig snel opgelost toen dit werd aangekaart door een andere student. Omdat ik al veel over het onderwerp wist had ik hier al een voorsprong op. Ik heb dus tijdens het seminarie ook andere studenten ondersteund. </p><br>
+                <p>Als laatste was de GUI van een tool die we moesten gebruiken wat onstabiel. Er werd dus door een andere student gevraagd om over te schakelen naar de CLI. Dit werkte veel beter en heeft de meeste problemen en onduidelijkheden opgelost.</p><br>
+                <p>Dit seminarie linkt sterk met het vak security dat ik in het tweede jaar heb gehad. Ik heb dit seminarie gekozen voor mijn portfolio omdat ik hier veel uit heb geleerd. Verder vond ik dit ook een zeer interessant onderwerp.</p><br>
+            </article>
+            <form action="#">
+                <button class="btn" type="submit"><i class="fas fa-angle-double-up"></i>&nbsp;&nbsp;&nbsp;Naar boven</button>
+            </form>
+        </section>
+    </main>
+    <aside id="footersection">
+        <article class="footerarticle">
+            <h3>CONTACTINFORMATIE</h3>
+            <p><a href="mailto:gijs.peerlings@student.pxl.be" title="the contact e-mail address">gijs.peerlings@student.pxl.be</a></p>
+            <div>
+                <figure>
+                    <a href="https://www.facebook.com/gijs.peerlings" title="Facebook"><img src="images/fb_logo.png" alt="Facebook"></a>
+                    <figcaption>Voeg me toe
+                        <br>op Facebook!</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://twitter.com/gijs159" title="Twitter"><img src="images/twitter_logo.png" alt="twitter"></a>
+                    <figcaption>Volg me
+                        <br>op Twitter!</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://www.linkedin.com/in/gijs-peerlings-027843138/" title="LinkedIn"><img src="images/LinkedIn_logo.png" alt="LinkedIn"></a>
+                    <figcaption>Voeg me toe
+                        <br>op LinkedIn!</figcaption>
+                </figure>
+            </div>
+            <p>Om me te contacteren kun je bovenstaande informatie gebruiken.</p>
+        </article>
+        <article class="footerarticle">
+            <h3>OVER MIJ</h3>
+            <p>In dit deel stel ik mezelf even voor. Ik ben Gijs en op dit moment student bij PXL. </p> <br>
+            <p>Ik studeer Toegepast Informatica: Systemen en netwerken. Dit is dan ook gelijk een grote hobby. Een andere hobby die ik heb is zwemmen. Als laatste vind ik een film of serie kijken ook altijd wel leuk.</p>
+        </article>
+        <article class="footerarticle">
+            <h3>WAT IS DIT?</h3>
+            <p>Dit portfolio maakt deel uit van het vak I-Talent dat ik op de Hogeschool PXL krijg.</p>
+            <br>
+            <p>Tijdens het vak I-Talent moeten er extracurriculaire activiteiten worden uitgevoerd. Daarna moet er een verslag worden gemaakt. Deze verslagen zijn samengebracht op deze website. </p>
+        </article>
+        <script type="text/javascript">
+            var giftofspeed = document.createElement('link');
+            giftofspeed.rel = 'stylesheet';
+            giftofspeed.href = 'styles/style.css';
+            giftofspeed.type = 'text/css';
+            var godefer = document.getElementsByTagName('link')[0];
+            godefer.parentNode.insertBefore(giftofspeed, godefer);
+        </script>
+    </aside>
+    <footer>
+        <h5>Copyright &copy; 2019 Gijs Peerlings All rights reserved.</h5> <a href="sitemap.html" title="user friendly sitemap">sitemap</a> </footer>
+</body>
+
+</html>

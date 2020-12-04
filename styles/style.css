@@ -1,0 +1,361 @@
+@font-face {
+    font-family: LemonMilk;
+    src: url(../fonts/LemonMilk.woff) format("woff")
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(../fonts/BebasNeue-Regular.woff) format("woff")
+}
+
+body {
+    background-color: rgb(51, 102, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-top: 0;
+    border-bottom: 0;
+    text-align: center
+}
+
+section {
+    background-color: white
+}
+
+section:nth-of-type(2),section:nth-of-type(4) {
+    background-color: #e6e6e6
+}
+
+section article p{
+    text-align: left;
+    max-width: 70em;
+    display: inline-block;
+    margin: 0.7em 2%;
+}
+section article div{
+    text-align: center;
+    max-width: 50%;
+    max-height: 50%;
+    margin: 0% auto;
+}
+
+section article div img {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+section article{
+    text-align: center;
+    display: inline-block;
+    width: 80%;
+}
+header {
+    height: 100%;
+    width: 100%
+}
+
+.indexheader {
+    background-image: url(../images/headerback_index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.mediaheader {
+    background-image: url(../images/headerback_mediaserver.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.buddyheader {
+    background-image: url(../images/headerback_study.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.dublinheader {
+    background-image: url(../images/headerback_dublin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.reflectieheader {
+    background-image: url(../images/rsz_headerback_eindreflectie.png);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.hackingheader {
+    background-image: url(../images/headerback_hacking.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.plex {
+    border: none;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.programmer {
+    max-width: 30%;
+    max-height: 30%;
+    border: 1px gray solid
+}
+
+.buddy {
+    border: 1px gray solid;
+    max-width: 30%;
+    max-height: 30%;
+    margin-bottom: 2%
+}
+
+.coinpic {
+    max-width: 34.5%;
+    max-height: 34.5%;
+    min-width: 30%;
+    min-height: 30%;
+    border: 1px gray solid
+}
+
+.bitcointitle {
+    color: #FF9E27
+}
+
+.sitemap {
+    background-color: #fff
+}
+
+.titlediv {
+    display: inline-block;
+    background-color: rgba(34, 34, 34, .85);
+    opacity: .85;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+
+header p {
+    color: white;
+    width: 90%;
+    display: inline-block;
+    margin-top: 0%;
+    margin-bottom: 2%
+}
+
+header h2 {
+    margin-top: -2%
+}
+
+h1 {
+    font-family: BebasNeue;
+    font-size: 32pt
+}
+
+h1,
+h2 {
+    margin-bottom: 1.5%;
+    color: rgb(51, 102, 255);
+    margin-top: 0%;
+    padding-top: 1%
+}
+
+h2 {
+    margin-top: 1.5%
+}
+
+section h2 {
+    font-family: LemonMilk;
+    color: black;
+    margin-top: 0%
+}
+
+img {
+    margin-bottom: 3%;
+    max-width: 90%;
+    max-height: 90%
+}
+
+section h1 {
+    color: black
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333
+}
+
+li {
+    float: left
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
+
+li a:hover:not(.active) {
+    background-color: #222
+}
+
+.active {
+    background-color: rgb(51, 102, 255)
+}
+
+.sitemapunlist,
+.sitemaplistitem,
+.sitemaplistitem a,
+.sitemaplistitem a:hover:not(.active) {
+    list-style-type: circle;
+    list-style: circle;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: initial;
+    float: none;
+    display: block;
+    color: initial;
+    text-align: center;
+    text-decoration: underline
+}
+
+.btn {
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 1.5%;
+    margin-top: .5%
+}
+
+.btn:hover {
+    background-color: maroon
+}
+
+#footersection {
+    background-color: #333;
+    display: flex;
+    width: 100%
+}
+
+#footersectionsitemap {
+    position: absolute;
+    bottom: 2em;
+    background-color: #333;
+    display: flex;
+    width: 100%
+}
+
+@media only screen and (max-width:1025px) {
+    #footersection a {
+        font-size: 1.1em
+    }
+    #footersectionsitemap {
+        display: none
+    }
+}
+
+#footersection a {
+    color: white;
+    word-wrap: break-word
+}
+
+#footersectionsitemap a {
+    color: white;
+    word-wrap: break-word
+}
+
+.footerarticle {
+    float: left;
+    margin-top: .5%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    width: 30%;
+    text-align: left
+}
+
+.footerarticle h3 {
+    color: white
+}
+
+.footerarticle p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: lightgray
+}
+
+.footerarticle img {
+    height: 2.5em;
+    float: left;
+    margin-right: 2%
+}
+
+.footerarticle figcaption {
+    display: inline-block;
+    margin-top: 2.5%;
+    height: 2.5em;
+    color: lightgray;
+    margin-left: 3%
+}
+
+.footerarticle figure {
+    margin-left: 0;
+    margin-bottom: 3%;
+    float: left;
+    display: inline-block;
+    width: 40%;
+    min-width: 8em;
+    word-wrap: break-word
+}
+
+.footerarticle div {
+    width: 100%;
+    display: inline-block;
+    margin-top: 0
+}
+
+#footersitemap {
+    position: absolute;
+    bottom: 0
+}
+
+footer {
+    background-color: #222;
+    display: inline-block;
+    width: 100%;
+    display: flex
+}
+
+h5 {
+    color: white;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 2.5%;
+    float: left;
+    width: 100%;
+    height: 50%
+}
+
+footer a {
+    float: right;
+    line-height: 3.5em;
+    color: white;
+    text-align: right;
+    width: 77%;
+    height: 50%;
+    margin-right: 2%
+}
